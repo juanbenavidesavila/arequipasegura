@@ -1,0 +1,12 @@
+{
+  "options": {
+    "apiKey": "AIzaSyAqJpL3PYQmUenbkRXy6GMAqdr0GEjAF4k",
+    "authDomain": "alerta-ciudadana-provincial.firebaseapp.com",
+    "databaseURL": "https://alerta-ciudadana-provincial-default-rtdb.firebaseio.com",
+    "projectId": "alerta-ciudadana-provincial",
+    "storageBucket": "alerta-ciudadana-provincial.appspot.com",
+    "messagingSenderId": "68951154384",
+    "appId": "1:68951154384:web:4e9a5c008ad4f222d548d5",
+    "measurementId": "G-Q9M9LK6TNZ"
+  }
+}

@@ -1,0 +1,12 @@
+- - Listados de tipos de emergencias y denuncias, 
+    - CREATE
+    - READ
+    - DELETE
+- - Cambio del centro del mapa
+- - Actualizar valores de configuración
+- - Muestra el ícono al abrir los modal's de los listados
+- - Mustra la imagen al abrir el modal del listado de denuncias
+- - Muestra el poligono del distrito
+- - Aparece las emegencias activas
+- - Aplicacion de los modals en reportes de emegencias y denuncias
+- - Filtrado en los reportes de emergencias y denuncias

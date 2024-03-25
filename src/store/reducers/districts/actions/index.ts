@@ -1,0 +1,1 @@
+export { getDistricts } from "./get";
