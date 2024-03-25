@@ -193,7 +193,7 @@ const ComplaintProvider: FC = ({ children }) => {
 
   return (
     <ComplaintContext.Provider
-      value={{
+      value={
         complaints,
         typesOfComplaints,
         createComplaintType,
@@ -207,7 +207,7 @@ const ComplaintProvider: FC = ({ children }) => {
         newComplaint,
         setNewComplaint, 
         setNewComplaintDetected 
-      }}
+      }
   
     >
       {children}
