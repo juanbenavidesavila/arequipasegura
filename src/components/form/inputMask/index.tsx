@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { Controller } from "react-hook-form";
 import { InputProps } from "../Input";
-import _InputMask from "react-input-mask";
+import InputMask from "react-input-mask";
 import { Input as _Input } from "@chakra-ui/react";
 
 export interface InputMaskProps extends InputProps {
@@ -15,7 +15,7 @@ export const InputMask: FC<InputMaskProps> = ({ name, mask, maskChar = "", input
       name={name}
       rules={rules}
       render={({ field }) => (
-        <_InputMask
+        <InputMask
           {...field}
           mask={mask}
           /*  @ts-ignore:next-line */
@@ -37,7 +37,7 @@ export const InputMask: FC<InputMaskProps> = ({ name, mask, maskChar = "", input
               {...inputProps}
             />
           )}
-        </_InputMask>
+        </InputMask>
       )}
     />
   );
