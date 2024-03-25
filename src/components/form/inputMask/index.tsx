@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { Controller } from "react-hook-form";
 import { InputProps } from "../Input";
-import InputMask from "react-input-mask";
+import _InputMask from "react-input-mask";
 import { Input as _Input } from "@chakra-ui/react";
 
 export interface InputMaskProps extends InputProps {
